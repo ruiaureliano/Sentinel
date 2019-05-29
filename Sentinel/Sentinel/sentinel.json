@@ -1,0 +1,30 @@
+{
+    "debug": [
+        {
+            "rule": "A=1",
+            "message": "🤭",
+            "type": "warning",
+            "file": "*.swift"
+        },
+        {
+            "rule": "A=2",
+            "message": "🎃",
+            "type": "warning",
+            "file": "*.swift"
+        }
+    ],
+    "release": [
+        {
+            "rule": "B=1",
+            "message": "🥵",
+            "type": "error",
+            "file": "*.swift"
+        },
+        {
+            "rule": "B=2",
+            "message": "👺",
+            "type": "error",
+            "file": "*.swift"
+        }
+    ]
+}

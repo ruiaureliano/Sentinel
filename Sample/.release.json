@@ -1,0 +1,28 @@
+{
+    "release": [
+        {
+            "rule": "A = 1",
+            "message": "🛑 Yes can be a emoji 🤭",
+            "type": "error",
+            "file": "*.swift"
+        },
+        {
+            "rule": "b|B = 1",
+            "message": "🛑 Because '\\$1'",
+            "type": "error",
+            "file": "*.swift"
+        },
+        {
+            "rule": "if .* == true {",
+            "message": "🛑 Avoid this, use 'if flag' instead",
+            "type": "error",
+            "file": "*.swift"
+        },
+        {
+            "rule": "if .* == false {",
+            "message": "🛑 Avoid this, use 'if !flag' instead",
+            "type": "error",
+            "file": "*.swift"
+        }
+    ]
+}
