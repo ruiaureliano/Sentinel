@@ -8,7 +8,7 @@ Al rules are defined in a JSON file which is explained below.
 
 ## Download or Build
 
-**1.** Download **Sentinel** form this Release [here](https://github.com/ruiaureliano/Sentinel/releases/download/0.9.0/sentinel_0.9.0.zip).
+**1.** Download **Sentinel** form this Release [here](https://github.com/ruiaureliano/Sentinel/releases/download/0.9.0/sentinel.zip).
 
 **2.** You can also build from source by cloning this project.
 
