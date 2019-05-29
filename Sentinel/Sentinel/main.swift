@@ -27,7 +27,7 @@ if arguments.count > 2 {
                                 var line = "rules=\"\(rule)\""
                                 line.append("\nfind \"${SRCROOT}\" \\( -name \"\(file)\" \\) -print0 ")
                                 line.append("| xargs -0 egrep --with-filename --line-number")
-                                line.append(" --only-matching \"($rules).*\\$\" ")
+                                line.append(" --only-matching \"($rules)\" ")
                                 line.append("| perl -p -e \"s/($rules)/ \(type): \(message)/\"")
 
                                 let task = Process()
@@ -48,7 +48,7 @@ if arguments.count > 2 {
                     }
                     debugPrint("+------------------------------------------------+" as AnyObject)
                     debugPrint("| USAGE: sentinel [debug|release] [path_to_json] |" as AnyObject)
-                    debugPrint("| VERSION: 0.9.0                                 |" as AnyObject)
+                    debugPrint("| VERSION: 0.9.1                                 |" as AnyObject)
                     debugPrint("+------------------------------------------------+" as AnyObject)
                     debugPrint("| DEBUG: Done                                    |" as AnyObject)
                     debugPrint("+------------------------------------------------+" as AnyObject)
@@ -87,7 +87,7 @@ if arguments.count > 2 {
 
                     debugPrint("+------------------------------------------------+" as AnyObject)
                     debugPrint("| USAGE: sentinel [debug|release] [path_to_json] |" as AnyObject)
-                    debugPrint("| VERSION: 0.9.0                                 |" as AnyObject)
+                    debugPrint("| VERSION: 0.9.1                                 |" as AnyObject)
                     debugPrint("+------------------------------------------------+" as AnyObject)
                     debugPrint("| RELEASE: Done                                  |" as AnyObject)
                     debugPrint("+------------------------------------------------+" as AnyObject)
@@ -97,7 +97,7 @@ if arguments.count > 2 {
     } catch {
         debugPrint("+------------------------------------------------+" as AnyObject)
         debugPrint("| USAGE: sentinel [debug|release] [path_to_json] |" as AnyObject)
-        debugPrint("| VERSION: 0.9.0                                 |" as AnyObject)
+        debugPrint("| VERSION: 0.9.1                                 |" as AnyObject)
         debugPrint("+------------------------------------------------+" as AnyObject)
         debugPrint("| ERROR: Could not parse json file               |" as AnyObject)
         debugPrint("+------------------------------------------------+" as AnyObject)
@@ -105,6 +105,6 @@ if arguments.count > 2 {
 } else {
     debugPrint("+------------------------------------------------+" as AnyObject)
     debugPrint("| USAGE: sentinel [debug|release] [path_to_json] |" as AnyObject)
-    debugPrint("| VERSION: 0.9.0                                 |" as AnyObject)
+    debugPrint("| VERSION: 0.9.1                                 |" as AnyObject)
     debugPrint("+------------------------------------------------+" as AnyObject)
 }

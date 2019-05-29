@@ -7,19 +7,19 @@
             "file": "*.swift"
         },
         {
-            "rule": "b|B = 1",
+            "rule": "(b|B) = 1",
             "message": "🛑 Because '\\$1'",
             "type": "error",
             "file": "*.swift"
         },
         {
-            "rule": "if .* == true {",
+            "rule": "if .* == true",
             "message": "🛑 Avoid this, use 'if flag' instead",
             "type": "error",
             "file": "*.swift"
         },
         {
-            "rule": "if .* == false {",
+            "rule": "if .* == false",
             "message": "🛑 Avoid this, use 'if !flag' instead",
             "type": "error",
             "file": "*.swift"

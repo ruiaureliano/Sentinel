@@ -8,7 +8,7 @@ Al rules are defined in a JSON file which is explained below.
 
 ## Download or Build
 
-**1.** Download **Sentinel** form this Release [here](https://github.com/ruiaureliano/Sentinel/releases/download/0.9.0/sentinel.zip).
+**1.** Download **Sentinel** form this Release [here](https://github.com/ruiaureliano/Sentinel/releases/download/0.9.1/sentinel.zip).
 
 **2.** You can also build from source by cloning this project.
 
@@ -32,7 +32,7 @@ open /usr/local/bin
 ```
 +------------------------------------------------+
 | USAGE: sentinel [debug|release] [path_to_json] |
-| VERSION: 0.9.0                                 |
+| VERSION: 0.9.1                                 |
 +------------------------------------------------+
 ```
 ## Xcode Integration
