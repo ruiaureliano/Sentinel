@@ -67,7 +67,7 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "/Users/ruiaureliano/Desktop/Sentinel/Sentinel/sentinel.json"
+            argument = "$SRCROOT/Sentinel/debug.json"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

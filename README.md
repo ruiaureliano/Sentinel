@@ -8,7 +8,7 @@ Al rules are defined in a JSON file which is explained below.
 
 ## Download or Build
 
-**1.** Download **Sentinel** form this Release [here](https://github.com/ruiaureliano/Sentinel/releases/download/0.9.1/sentinel.zip).
+**1.** Download **Sentinel** form this Release [Sentinel 0.9.2](https://github.com/ruiaureliano/Sentinel/releases/download/0.9.2/sentinel.zip).
 
 **2.** You can also build from source by cloning this project.
 
@@ -30,10 +30,10 @@ open /usr/local/bin
 **4.** Close and reopen terminal and type this command: `sentinel` if you see the following message, that's all 💪 
 
 ```
-+------------------------------------------------+
-| USAGE: sentinel [debug|release] [path_to_json] |
-| VERSION: 0.9.1                                 |
-+------------------------------------------------+
++----------------------------------------+
+| USAGE: sentinel [debug|release] [json] |
+| VERSION: 0.9.2                         |
++----------------------------------------+
 ```
 ## Xcode Integration
 
@@ -65,19 +65,19 @@ Each JSON must be like this:
             "file": "*.swift"
         },
         {
-            "rule": "b|B = 1",
+            "rule": "(b|B) = 1",
             "message": "⚠️ Because '\\$1'",
             "type": "warning",
             "file": "*.swift"
         },
         {
-            "rule": "if .* == true {",
+            "rule": "if .* == true",
             "message": "⚠️ Avoid this, use 'if flag' instead",
             "type": "warning",
             "file": "*.swift"
         },
         {
-            "rule": "if .* == false {",
+            "rule": "if .* == false",
             "message": "⚠️ Avoid this, use 'if !flag' instead",
             "type": "warning",
             "file": "*.swift"
@@ -95,19 +95,19 @@ Each JSON must be like this:
             "file": "*.swift"
         },
         {
-            "rule": "b|B = 1",
+            "rule": "(b|B) = 1",
             "message": "🛑 Because '\\$1'",
             "type": "error",
             "file": "*.swift"
         },
         {
-            "rule": "if .* == true {",
+            "rule": "if .* == true",
             "message": "🛑 Avoid this, use 'if flag' instead",
             "type": "error",
             "file": "*.swift"
         },
         {
-            "rule": "if .* == false {",
+            "rule": "if .* == false",
             "message": "🛑 Avoid this, use 'if !flag' instead",
             "type": "error",
             "file": "*.swift"

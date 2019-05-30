@@ -24,10 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B21E6CDA22A03B36001ACA5A /* debug.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = debug.json; sourceTree = "<group>"; };
+		B21E6CDB22A03B43001ACA5A /* release.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = release.json; sourceTree = "<group>"; };
 		B2DE49D5229E031A0014646C /* sentinel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sentinel; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DE49D8229E031A0014646C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B2DE49E0229E05610014646C /* Data+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+JSON.swift"; sourceTree = "<group>"; };
-		B2DE49E2229E057F0014646C /* sentinel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sentinel.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +61,10 @@
 		B2DE49D7229E031A0014646C /* Sentinel */ = {
 			isa = PBXGroup;
 			children = (
-				B2DE49E2229E057F0014646C /* sentinel.json */,
 				B2DE49D8229E031A0014646C /* main.swift */,
 				B2DE49E0229E05610014646C /* Data+JSON.swift */,
+				B21E6CDA22A03B36001ACA5A /* debug.json */,
+				B21E6CDB22A03B43001ACA5A /* release.json */,
 			);
 			path = Sentinel;
 			sourceTree = "<group>";
