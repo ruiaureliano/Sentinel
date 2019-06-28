@@ -1,3 +1,5 @@
+![Version: 0.9.2](https://img.shields.io/static/v1.svg?label=Version&message=0.9.2&labelColor=2f2f2d&color=FD2A21)
+
 # 🚨Sentinel for Xcode
 
 ## What is Sentinel
