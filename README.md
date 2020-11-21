@@ -1,4 +1,4 @@
-# 🚨Sentinel for Xcode [![](https://img.shields.io/badge/license-MIT-eb3d33.svg)](./LICENSE.md)  ![](https://img.shields.io/badge/version-0.9.3-eb3d33.svg)
+# 🚨Sentinel for Xcode [![](https://img.shields.io/badge/license-MIT-eb3d33.svg)](./LICENSE.md)  ![](https://img.shields.io/badge/version-1.0-eb3d33.svg)
 
 ## What is Sentinel
 
@@ -8,7 +8,7 @@ Al rules are defined in a JSON file which is explained below.
 
 ## Download or Build
 
-**1.** Download [**Sentinel (0.9.3)**](https://github.com/ruiaureliano/Sentinel/releases/download/0.9.3/sentinel.zip).
+**1.** Download [**Sentinel (1.0)**](https://github.com/ruiaureliano/Sentinel/releases/download/1.0/sentinel.zip).
 
 **2.** You can also build from source by cloning this project.
 
@@ -32,7 +32,7 @@ open /usr/local/bin
 ```
 +----------------------------------------+
 | USAGE: sentinel [debug|release] [json] |
-| VERSION: 0.9.3                         |
+| VERSION: 1.0                           |
 +----------------------------------------+
 ```
 ## Xcode Integration
