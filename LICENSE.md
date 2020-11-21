@@ -1,4 +1,4 @@
-# MIT License
+# MIT License [![](https://img.shields.io/badge/license-MIT-eb3d33.svg)](./LICENSE.md)
 ---
 
 **Copyright (c) 2020 Rui Aureliano**
