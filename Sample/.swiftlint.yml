@@ -1,0 +1,6 @@
+disabled_rules:
+- identifier_name
+
+line_length:
+- 300 # warning
+- 400 # error
