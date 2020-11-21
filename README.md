@@ -1,6 +1,4 @@
-![Version: 0.9.2](https://img.shields.io/static/v1.svg?label=Version&message=0.9.2&labelColor=2f2f2d&color=FD2A21)
-
-# 🚨Sentinel for Xcode
+# 🚨Sentinel for Xcode [![](https://img.shields.io/badge/license-MIT-eb3d33.svg)](./LICENSE.md)  ![](https://img.shields.io/badge/version-0.9.3-eb3d33.svg)
 
 ## What is Sentinel
 
@@ -10,7 +8,7 @@ Al rules are defined in a JSON file which is explained below.
 
 ## Download or Build
 
-**1.** Download **Sentinel** form this Release [Sentinel 0.9.2](https://github.com/ruiaureliano/Sentinel/releases/download/0.9.2/sentinel.zip).
+**1.** Download **Sentinel** form this Release [Sentinel 0.9.3](https://github.com/ruiaureliano/Sentinel/releases/download/0.9.3/sentinel.zip).
 
 **2.** You can also build from source by cloning this project.
 
@@ -34,7 +32,7 @@ open /usr/local/bin
 ```
 +----------------------------------------+
 | USAGE: sentinel [debug|release] [json] |
-| VERSION: 0.9.2                         |
+| VERSION: 0.9.3                         |
 +----------------------------------------+
 ```
 ## Xcode Integration
@@ -133,3 +131,10 @@ The main **key** must be `debug|release` and the **value** is an array of dictio
 **2.** When archiving
 
 ![Errors](https://github.com/ruiaureliano/Sentinel/blob/master/errors.png?raw=true)
+
+---
+
+I'm [Rui Aureliano](http://ruiaureliano.com), iOS and macOS Engineer at [Olá Brothers](https://theolabrothers.com). We make [Sip](https://sipapp.io) 🤓
+
+[Linkedin](https://www.linkedin.com/in/ruiaureliano) | [AngelList](https://angel.co/ruiaureliano) | [Twitter](https://twitter.com/ruiaureliano) | [Github](https://github.com/ruiaureliano) | [Medium](https://medium.com/@ruiaureliano) | [Stackoverflow](https://stackoverflow.com/users/881095/ruiaureliano)
+
