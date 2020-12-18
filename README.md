@@ -1,4 +1,6 @@
-# 🚨Sentinel for Xcode [![](https://img.shields.io/badge/license-MIT-eb3d33.svg)](./LICENSE.md)  ![](https://img.shields.io/badge/version-1.0-eb3d33.svg)
+# 🚨Sentinel for Xcode 
+
+[![](https://img.shields.io/badge/license-MIT-0f73b4.svg)](./LICENSE.md)  ![](https://img.shields.io/badge/version-1.0-0f73b4.svg)
 
 ## What is Sentinel
 
